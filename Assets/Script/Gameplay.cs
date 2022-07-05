@@ -15,7 +15,7 @@ public class Gameplay : MonoBehaviour
             {
                 if (hit.collider.gameObject.name.CompareTo("RedSphere") == 0)
                 {
-                    hit.collider.gameObject.SetActive(false);
+                    hit.collider.gameObject.SetActive(false); // comment
                 }
             }
         }
